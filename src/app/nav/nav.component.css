@@ -1,0 +1,16 @@
+
+.list>li{
+  display: inline-block;
+  margin-right: 10px;
+  color:white;
+}
+
+.container{
+  background-color: #222;
+  padding:10px;
+
+
+}
+.list>li:hover{
+  color:yellow;
+}

@@ -1,0 +1,18 @@
+<div class="container">
+<ul class="list">
+  <li *ngFor="let item of menuItems">
+    <app-navitem [menuItem]="item" (click)="select(item.item)"></app-navitem>
+  </li>
+</ul>
+</div>
+<div>
+      <div *ngFor="let item of menuItems">
+      <app-description [menuItem]="item" *ngIf="item.item==selected">      </app-description>
+      </div><br><br>
+
+
+
+    </div>
+
+
+
